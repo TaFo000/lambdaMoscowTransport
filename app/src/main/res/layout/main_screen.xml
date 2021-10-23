@@ -14,7 +14,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_launcher_background"
         tools:srcCompat="@drawable/map" />
 
     <Button
@@ -102,9 +101,11 @@
         android:id="@+id/kuda_btn2"
         android:layout_width="60dp"
         android:layout_height="60dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
         android:height="60dp"
         android:alpha="0.5"
-        android:text="Куда поедем?"
+        android:foreground="@drawable/ic_baseline_sort_24"
         android:textColor="@color/black"
         app:cornerRadius="10dp"
         app:layout_constraintStart_toStartOf="parent"

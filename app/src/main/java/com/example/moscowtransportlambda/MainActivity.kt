@@ -31,9 +31,9 @@ class MainActivity : ComponentActivity() {
             startActivity(intent)
         }
         var layerss = findViewById<Button>(R.id.kuda_btn2)
-        layerss.setOnLongClickListener {
-            var intent = Intent(this@MainActivity,Layers::class.java)
-            startActivity(intent)
+        layerss.setOnClickListener {
+            var yintent = Intent(this@MainActivity,Layers::class.java)
+            startActivity(yintent)
         }
 
     }

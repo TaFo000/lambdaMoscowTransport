@@ -80,7 +80,7 @@
             app:layout_constraintTop_toTopOf="parent" />
 
         <ImageView
-            android:id="@+id/imageView5"
+            android:id="@+id/image"
             android:layout_width="320dp"
             android:layout_height="320dp"
             android:background="@drawable/card_shape2"
@@ -90,6 +90,17 @@
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/card_shape2" />
 
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="273dp"
+            android:layout_height="288dp"
+            android:background="@drawable/thinkingsmile"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="@+id/image"
+            app:layout_constraintStart_toStartOf="@+id/image"
+            app:layout_constraintTop_toTopOf="@+id/image"
+            app:srcCompat="@drawable/thinkingsmile" />
+
         <TextView
             android:id="@+id/textView11"
             android:layout_width="wrap_content"
@@ -98,20 +109,10 @@
             android:text="А на чем поедем?"
             android:textColor="@color/white"
             android:textSize="40sp"
-            app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintBottom_toTopOf="@+id/image"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="@+id/imageView" />
 
-        <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="273dp"
-            android:layout_height="288dp"
-            android:background="@drawable/thinkingsmile"
-            app:layout_constraintBottom_toBottomOf="@+id/imageView5"
-            app:layout_constraintEnd_toEndOf="@+id/imageView5"
-            app:layout_constraintStart_toStartOf="@+id/imageView5"
-            app:layout_constraintTop_toTopOf="@+id/imageView5"
-            app:srcCompat="@drawable/thinkingsmile" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
