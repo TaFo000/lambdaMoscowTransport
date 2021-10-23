@@ -21,7 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".SwipeChoice"/>
-        <activity android:name=".Layers"/>
+        <activity android:name=".Layersss"/>
+        <activity android:name=".Schedule"/>
+        <activity android:name=".OfferParking"/>
     </application>
 
 </manifest>

@@ -2,23 +2,9 @@ package com.example.moscowtransportlambda
 
 import android.content.Intent
 import android.os.Bundle
-import android.util.Log
-import android.view.View
-import android.view.animation.AnimationUtils
 import android.widget.Button
-import android.widget.ImageView
-import android.widget.Toast
+import android.widget.ImageButton
 import androidx.activity.ComponentActivity
-import androidx.activity.compose.setContent
-import androidx.compose.foundation.clickable
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import androidx.constraintlayout.widget.ConstraintLayout
-import com.example.moscowtransportlambda.ui.theme.MoscowTransportlambdaTheme
 
 
 class MainActivity : ComponentActivity() {
@@ -30,10 +16,15 @@ class MainActivity : ComponentActivity() {
             var intent = Intent(this@MainActivity,SwipeChoice::class.java)
             startActivity(intent)
         }
-        var layerss = findViewById<Button>(R.id.kuda_btn2)
+        var layerss = findViewById<Button>(R.id.layers_btn)
         layerss.setOnClickListener {
-            var yintent = Intent(this@MainActivity,Layers::class.java)
-            startActivity(yintent)
+            var yintent = Intent(this@MainActivity,Layersss::class.java)
+            try{
+                startActivity(yintent)
+            }
+            catch(e:Exception){
+                e.printStackTrace()
+            }
         }
 
     }
