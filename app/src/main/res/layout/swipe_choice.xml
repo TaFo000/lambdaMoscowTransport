@@ -14,7 +14,7 @@
         android:layout_marginTop="16dp"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Мое местоположение"
         app:layout_constraintStart_toEndOf="@+id/imageView3"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -24,7 +24,7 @@
         android:layout_height="wrap_content"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="Name"
+        android:text="Пункт назначения"
         app:layout_constraintEnd_toEndOf="@+id/editTextTextPersonName2"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
@@ -44,20 +44,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
+        android:background="@drawable/ic_baseline_radio_button_unchecked_24"
         app:layout_constraintBottom_toBottomOf="@+id/imageButton2"
         app:layout_constraintStart_toEndOf="@+id/imageButton2"
-        app:layout_constraintTop_toTopOf="@+id/imageButton2"
-        app:srcCompat="@drawable/ic_baseline_radio_button_unchecked_24" />
+        app:layout_constraintTop_toTopOf="@+id/imageButton2" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/ic_baseline_where_to_vote_24"
         app:layout_constraintBottom_toBottomOf="@+id/editTextTextPersonName3"
         app:layout_constraintEnd_toEndOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="@+id/imageView3"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2"
-        app:srcCompat="@drawable/ic_baseline_where_to_vote_24" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/card"
@@ -73,7 +73,7 @@
             android:id="@+id/imageView"
             android:layout_width="0dp"
             android:layout_height="0dp"
-            android:background="@drawable/card_shape"
+            android:background="@color/card_red"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -112,6 +112,30 @@
             app:layout_constraintBottom_toTopOf="@+id/image"
             app:layout_constraintEnd_toEndOf="@+id/imageView"
             app:layout_constraintStart_toStartOf="@+id/imageView" />
+
+        <ImageView
+            android:id="@+id/autobusus"
+            android:layout_width="271dp"
+            android:layout_height="289dp"
+            android:alpha="0"
+            android:background="@drawable/autobusus"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="@+id/image"
+            app:layout_constraintStart_toStartOf="@+id/image"
+            app:layout_constraintTop_toTopOf="@+id/image" />
+
+        <ImageView
+            android:id="@+id/carar"
+            android:layout_width="266dp"
+            android:layout_height="283dp"
+            android:alpha="0"
+            android:background="@drawable/carar"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toBottomOf="@+id/image"
+            app:layout_constraintEnd_toEndOf="@+id/image"
+            app:layout_constraintStart_toStartOf="@+id/image"
+            app:layout_constraintTop_toTopOf="@+id/image" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

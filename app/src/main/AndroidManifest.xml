@@ -24,6 +24,8 @@
         <activity android:name=".Layersss"/>
         <activity android:name=".Schedule"/>
         <activity android:name=".OfferParking"/>
+        <activity android:name=".Params"/>
+        <activity android:name=".Route"/>
     </application>
 
 </manifest>

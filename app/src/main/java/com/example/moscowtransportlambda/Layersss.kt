@@ -1,16 +1,19 @@
 package com.example.moscowtransportlambda
 
+import android.content.Intent
 import android.os.Bundle
 import android.os.PersistableBundle
+import android.widget.Button
 import android.widget.ImageButton
 import androidx.activity.ComponentActivity
 
 class Layersss : ComponentActivity() {
-    override fun onCreate(savedInstanceState: Bundle?, persistentState: PersistableBundle?) {
-        super.onCreate(savedInstanceState, persistentState)
-        setContentView(R.layout.layerss)
-        var btn = findViewById<ImageButton>(R.id.imageButton)
-        btn.setOnClickListener{
+    var c = 0
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        setContentView(R.layout.layers)
+        var back = findViewById<ImageButton>(R.id.imageButton3)
+        back.setOnClickListener{
             this@Layersss.finish()
         }
     }

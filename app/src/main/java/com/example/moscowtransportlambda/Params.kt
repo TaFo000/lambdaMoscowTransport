@@ -1,18 +1,16 @@
 package com.example.moscowtransportlambda
 
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.widget.Button
 import androidx.activity.ComponentActivity
 
-class OfferParking : ComponentActivity() {
+class Params: ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.offer)
-        var btn = findViewById<Button>(R.id.button)
+        setContentView(R.layout.params_layout)
+        var btn = findViewById<Button>(R.id.btttn)
         btn.setOnClickListener {
-            this@OfferParking.finish()
+            this@Params.finish()
         }
-
     }
 }
