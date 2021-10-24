@@ -3,14 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/layout.xml" value="0.25317028985507245" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/drawable/btn_grey.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/drawable/card_shape.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/drawable/carsharing.xml" value="0.18645833333333334" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/bus_rout.xml" value="0.11458333333333333" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/car_rout.xml" value="0.176" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/layers.xml" value="0.264" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/layerss.xml" value="0.176" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/main_screen.xml" value="0.2" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/negative_feedback.xml" value="0.14375" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/offer.xml" value="0.264" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/params_layout.xml" value="0.12" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/route_layout.xml" value="0.176" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/schedule.xml" value="0.264" />
+        <entry key="..\:/Users/user1/MoscowTransportlambdafolder/app/src/main/res/layout/swipe_choice.xml" value="0.176" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/build/classes" />
-  </component>
-  <component name="ProjectType">
-    <option name="id" value="Android" />
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.152" />
+      </ProjectState>
+    </option>
   </component>
 </project>
